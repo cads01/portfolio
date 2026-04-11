@@ -1,5 +1,5 @@
 export const meta = {
-  name: "Your Name",
+  name: "Adedolapo Adeniyi Samuel",
   handle: "cads01",
   title: "Full-Stack Engineer",
   location: "Lagos, Nigeria",
