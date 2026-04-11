@@ -36,30 +36,41 @@ export default function Hero() {
 
       {/* Content */}
       <p
-        className="font-mono text-[11px] tracking-[0.2em] uppercase text-[#e8c97a] mb-6"
+        className="font-mono text-[11px] tracking-[0.2em] uppercase text-[#e8c97a] mb-4"
         style={{ animation: "fadeUp 0.8s 0.2s ease both" }}
       >
         Full-Stack Engineer · {meta.location}
       </p>
 
+      {/* NAME — the most vivid element on the page */}
       <h1
-        className="text-[clamp(4rem,10vw,9rem)] font-extrabold leading-[0.92] tracking-[-0.03em] mb-5"
-        style={{ animation: "fadeUp 0.8s 0.35s ease both" }}
+        className="text-[clamp(4rem,11vw,10rem)] font-extrabold leading-[0.88] tracking-[-0.04em] mb-4"
+        style={{ animation: "fadeUp 0.8s 0.32s ease both" }}
       >
-        Building things
-        <br />
-        that{" "}
+        {meta.name}
+      </h1>
+
+      {/* Tagline sits right below the name */}
+      <p
+        className="text-[clamp(1rem,2.5vw,1.8rem)] font-extrabold leading-[1.15] tracking-[-0.02em] mb-5 text-white/30"
+        style={{ animation: "fadeUp 0.8s 0.44s ease both" }}
+      >
+        Building things that{" "}
         <em
-          className="not-italic text-[#e8c97a]"
-          style={{ fontFamily: "'Instrument Serif', serif", fontStyle: "italic" }}
+          style={{
+            fontFamily: "'Instrument Serif', serif",
+            fontStyle: "italic",
+            fontWeight: 400,
+            color: "#e8c97a",
+          }}
         >
           actually work.
         </em>
-      </h1>
+      </p>
 
       <p
         className="font-mono text-[13px] text-white/45 max-w-[420px] leading-[1.8] mb-10"
-        style={{ animation: "fadeUp 0.8s 0.5s ease both" }}
+        style={{ animation: "fadeUp 0.8s 0.56s ease both" }}
       >
         I architect and ship full-stack products end-to-end — from database schema to
         polished UI — with a bias for clean code and measurable outcomes. 10+ years
