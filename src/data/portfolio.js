@@ -7,9 +7,9 @@ export const meta = {
   availableFor: "Remote · Full-time",
   email: "hello@cads01.dev",
   github: "https://github.com/cads01",
-  linkedin: "https://linkedin.com/in/cads01",
-  twitter: "https://twitter.com/cads01",
-  resume: "/resume.pdf",
+  linkedin: "https://www.linkedin.com/in/adedolapo-adeniyi-820108402/",
+  twitter: "https://twitter.com/adsam101",
+  resume: "https://drive.google.com/file/d/11MiGBhRCZqCgetcWzpydHFBcKCOTp-xi/view?usp=drive_link",
 };
 
 export const stack = [
