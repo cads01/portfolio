@@ -43,7 +43,7 @@ export const projects = [
     desc: "A full-stack event management platform with ticketing, role-based dashboards, Paystack-powered payments, Cloudinary image uploads, and transactional emails via Resend. Built end-to-end: schema design through to CI/CD deployment on Vercel + Render.",
     pills: ["React + Vite", "Tailwind v4", "Node.js", "Express", "MongoDB Atlas", "JWT RBAC", "Paystack", "Cloudinary", "Resend"],
     github: "https://github.com/cads01/EVENT_APP",
-    live: "#",
+    live: "https://event-app-frav.vercel.app/",
     featured: true,
   },
   {
