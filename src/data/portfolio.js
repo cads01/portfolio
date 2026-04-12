@@ -1,7 +1,7 @@
 export const meta = {
   name: "Adedolapo Adeniyi Samuel",
   handle: "cads01",
-  title: "Full-Stack Engineer",
+  title: "Network Engineer & Full-Stack Engineer",
   location: "Lagos, Nigeria",
   available: true,
   availableFor: "Remote · Full-time",
