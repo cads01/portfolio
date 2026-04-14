@@ -7,7 +7,7 @@ export default function Portfolio() {
   const [dark, setDark] = useState(false);
   const [repos, setRepos] = useState([]);
 
-  const GITHUB_USERNAME = "yourusername"; // 🔴 replace
+  const GITHUB_USERNAME = "cads01"; // 🔴 replace
 
   useEffect(() => {
     fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
@@ -20,7 +20,7 @@ export default function Portfolio() {
       title: "Event Management Platform",
       desc: "Full-stack event system with admin panel and dynamic UI",
       details: "Built with React, Bootstrap, Node.js, MySQL. Features include CRUD events, admin dashboard, and responsive UI optimization.",
-      link: "#",
+      link: "event-app-rho-seven.vercel.app",
     },
     {
       title: "Donation Platform",
@@ -113,7 +113,7 @@ export default function Portfolio() {
       <section className="text-center">
         <h2 className="text-2xl font-semibold mb-4">Contact</h2>
         <form
-          action="https://formspree.io/f/yourformid" // 🔴 replace
+          action="https://formspree.io/f/mjgpdzyk" // 🔴 replace
           method="POST"
           className="max-w-md mx-auto space-y-3"
         >
